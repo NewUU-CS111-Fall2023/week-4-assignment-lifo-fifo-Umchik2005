@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <sstream>
-using namespace std;
+
 
 bool ifArrangeTrains(int n, vector<int> trainOrder) {
     stack<int> s;
@@ -29,16 +29,16 @@ bool ifArrangeTrains(int n, vector<int> trainOrder) {
 
 int main() {
     int n;
-    cin >> n;
+    std::cin >> n;
 
     vector<int> trainOrder(n);
     for (int i = 0; i < n; i++)
-        cin >> trainOrder[i];
+        std::cin >> trainOrder[i];
 
     if (ifArrangeTrains(n, trainOrder))
-        cout << "YES" << endl;
+        std::cout << "YES" << std::endl;
     else
-        cout << "NO" << endl;
+        std::cout << "NO" << std::endl;
 
     return 0;
 }
