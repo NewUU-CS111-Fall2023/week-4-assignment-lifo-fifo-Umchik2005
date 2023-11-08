@@ -18,9 +18,8 @@ int main() {
     std::cout << "Task 4" << std::endl;
     // call for task 4
     std::cout << "Task 5" << std::endl;
-    int n = 8;
-    int minNumMoves = numberOfTowers(n);
-    std::cout << minNumMoves << "\n";
+    FifthTask task_5;
+    std::cout << task_5.numberOfTowers(8) << std::endl;
     // call for task 5
     return 0;
 }
