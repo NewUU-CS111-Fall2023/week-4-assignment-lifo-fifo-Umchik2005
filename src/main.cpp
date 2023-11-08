@@ -5,7 +5,6 @@
  */
 
 #include <iostream>
-#include "task_1.h"
 #include "task_5.h"
 
 int main() {
